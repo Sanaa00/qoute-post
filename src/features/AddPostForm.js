@@ -26,7 +26,7 @@ function AddPostForm() {
       <p className="text-center text-xl text-gray-50">Add a new Qoute</p>
       <form className="flex flex-col mt-2">
         <div className="w-full flex justify-between text-gray-50 text-lg focus:outline-none">
-          <label htmlFor="name " className="w-2/6">
+          <label htmlFor="name " className=" text-sm sm:text-lg w-2/6">
             Owner name
           </label>
           <input
@@ -39,7 +39,7 @@ function AddPostForm() {
           />
         </div>
         <div className="text-lg text-gray-50 flex justify-between items-center mt-1">
-          <label htmlFor="qoute" className="w-2/6 ">
+          <label htmlFor="qoute" className="text-sm sm:text-lg w-2/6 ">
             Qoute
           </label>
           <input
@@ -54,7 +54,7 @@ function AddPostForm() {
 
         <button
           type="button "
-          className="w-full text-gray-50 shadow-lg py-1 backdrop-blur-xl rounded-full mt-3 hover:bg-purpley "
+          className="text-sm w-full sm:text-lg text-gray-50 shadow-lg py-1 backdrop-blur-xl rounded-full mt-3 hover:bg-purpley "
           onClick={onPostQoute}
           disabled={!canPost}
         >
